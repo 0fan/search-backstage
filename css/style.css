@@ -1,0 +1,93 @@
+body
+{
+    padding-top: 50px;
+}
+.wrap
+{
+    overflow: hidden;
+}
+.sideNav
+{
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+
+    width: 180px;
+    padding: 10px 0;
+
+    color: #aeb9c2;
+    background: #293038;
+}
+.sideNav .sideNav-root .item
+{
+    line-height: 40px;
+
+    display: block;
+    overflow: hidden;
+
+    height: 40px;
+    padding: 0 10px;
+
+    cursor: pointer;
+    -webkit-transition: background .2s;
+       -moz-transition: background .2s;
+         -o-transition: background .2s;
+            transition: background .2s;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sideNav .sideNav-root .item.active,
+.sideNav .sideNav-root .item.active:hover,
+.sideNav .sideNav-root .item.active:active
+{
+    color: #fff;
+    background: #005da3;
+}
+.sideNav .sideNav-root .item:hover,
+.sideNav .sideNav-root .item:active
+{
+    background: #363c44;
+}
+.sideNav .sideNav-root .item > .caret
+{
+    display: inline-block;
+
+    margin-right: 5px;
+}
+.breadcrumb
+{
+    margin-bottom: 0;
+}
+.main
+{
+    margin-left: 180px;
+}
+.content-panel
+{
+    overflow: hidden;
+
+    margin: 20px;
+    padding: 0 20px 20px;
+
+    background: #fff;
+}
+th:last-child,
+td:last-child
+{
+    text-align: right;
+}
+.mod-detail{
+    max-width: 640px;
+}
+.mod-detail .form-group label{
+    display: block;
+}
+.mod-detail .form-group .txt{
+    display: block;
+    margin-bottom: 5px;
+}
+.txt-padding{
+    display: block;
+    padding-top: 7px;
+}
